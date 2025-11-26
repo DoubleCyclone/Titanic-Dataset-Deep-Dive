@@ -3,7 +3,7 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iu6mTNks3OZPIgFUHXP-o0YyJTluqz5-?usp=sharing)
-[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/)
+[![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 [![Status](https://img.shields.io/badge/coverage-85%25-orange)]()
 
 ![Initial Dataset](/images/dataset_initial_look.png)

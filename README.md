@@ -1,2 +1,12 @@
-# Titanic-Dataset-Deep-Dive
-EDA project on the Titanic dataset. Visualising and analyzing relationships.
+# Titanic Dataset Deep Dive [EDA]
+
+![Dataset](https://i.imgur.com/6Hb7e4J.png)
+
+EDA project on the Titanic dataset. Creating features, visualising and analyzing relationships.
+
+## Pre-Notebook-Run Requirements
+*  Installing the Titanic Dataset from : https://www.kaggle.com/datasets/yasserh/titanic-dataset
+*  On Google Drive, uploading the dataset to the "/content/drive/My Drive/Colab_Materials/Titanic_Dataset_Deep_Dive" directory (or changing how the dataset .csv is loaded in the notebook)
+
+
+

@@ -9,15 +9,15 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 ![Initial Dataset](/images/dataset_initial_look.png)
 
 ## Table of Contents
-- [Author](#Author)
-- [Setup](#Setup)
-- [Key Findings](#Keyfindings)
-- [Detailed Survival Statistics](#DetailedSurvivalStatistics)
-- [Quick Results Overview](#QuickResultsOverview)
-- [Plots](#Plots)
-- [Project Showcase](#ProjectShowcase)
-- [Skills Demonstrated](#SkillsDemonstrated)
-- [Project Motivation](#ProjectMotivation)
+- [Author](#author)
+- [Setup](#setup)
+- [Key Findings](#key-findings)
+- [Detailed Survival Statistics](#detailed-survival-statistics)
+- [Quick Results Overview](#quick-results-overview)
+- [Plots](#plots)
+- [Project Showcase](#project-showcase)
+- [Skills Demonstrated](#skills-demonstrated)
+- [Project Motivation](#project-motivation)
 
 ## 👤 Author
 **Umut Bekdemir**

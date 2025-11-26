@@ -6,29 +6,38 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 [![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 [![Status](https://img.shields.io/badge/coverage-85%25-orange)]()
 
-![Initial Dataset](/images/dataset_initial_look.png)
+![Initial Dataset](images/dataset_initial_look.png) <br>
+*Initial Dataset Preview*
+
+---
 
 ## Table of Contents
 - [Author](#author)
 - [Setup](#setup)
 - [Key Findings](#key-findings)
-- [Detailed Survival Statistics](#detailed-survival-statistics)
-- [Quick Results Overview](#quick-results-overview)
+  - [Detailed Survival Statistics](#detailed-survival-statistics)
+  - [Quick Results Overview](#quick-results-overview)
 - [Plots](#plots)
 - [Project Showcase](#project-showcase)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Project Motivation](#project-motivation)
 
+---
+
 ## 👤 Author
 **Umut Bekdemir**
 - GitHub: [@DoubleCyclone](https://github.com/DoubleCyclone)
-- LinkedIn: [Umut Bekdemir](www.linkedin.com/in/umut-bekdemir-803a2825a)
+- LinkedIn: [Umut Bekdemir](https://www.linkedin.com/in/umut-bekdemir-803a2825a)
 - Email: umut.bekdemir29@gmail.com
+
+---
 
 ## ⚙️ Setup
 - Download the [dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset).
 - On Google Drive, upload the dataset to the "/content/drive/My Drive/Colab_Materials/Titanic_Dataset_Deep_Dive" directory (or change how the dataset .csv is loaded in the notebook)
 - See the [full analysis](/notebooks/Titanic_Dataset_Deep_Dive.ipynb) for details.
+
+---
 
 ## 🔎 Key Findings
 - Females, passangers who had an assigned cabin, passangers who got better class tickets and people with middle sized families aboard the Titanic tend to have had a higher survival rate.
@@ -56,17 +65,17 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 | Fare | ⭐⭐ (Moderate) |
 
 ### ✏️ Plots
-***Univariate/Bivariate Distribution Plots*** 
 
-![Distribution Plots](/images/plots.png)
+![Distribution Plots](images/plots.png) <br>
+*Univariate/Bivariate Distributions*
 
-***Survival Rate by Cabin Information Plot***
+![Cabin Plot](images/cabin_plot.png) <br>
+*Survival Rate by Cabin Information*
 
-![Cabin Plot](/images/cabin_plot.png)
+![Family Size Plot](images/family_plot.png) <br>
+*Survival Rate by Family Size*
 
-***Survival Rate by Family Size Plot***
-
-![Family Size Plot](/images/family_plot.png)
+---
 
 ## 🎬 Project Showcase
 
@@ -78,6 +87,8 @@ This project demonstrates my ability to perform:
 - **Feature Engineering**: Developed new meaningful variables
 - **Python Programming**: Clean, well-documented code
 - **Communication**: Translated findings into insights
+
+---
 
 ## 🎓 Skills Demonstrated
 
@@ -102,9 +113,16 @@ This project showcases:
 - Version control (Git/GitHub)
 - Reproducible research
 
+---
+
 ## 💭 Project Motivation
 
 I chose the Titanic dataset because:
 
 1. **Data Science Foundation**: A classic dataset perfect for demonstrating EDA skills
 2. **Real-World Complexity**: Contains missing data, categorical and numerical features
+
+---
+
+## 🔮 Future Enhancements
+   - [ ] Analyze and plot more relationships

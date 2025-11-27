@@ -4,7 +4,7 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iu6mTNks3OZPIgFUHXP-o0YyJTluqz5-?usp=sharing)
 [![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
-[![Status](https://img.shields.io/badge/coverage-85%25-orange)]()
+[![Status](https://img.shields.io/badge/Status-Complete-success.svg)]()
 
 ![Initial Dataset](images/dataset_initial_look.png) <br>
 *Initial Dataset Preview*
@@ -41,7 +41,7 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 ---
 
 ## 🔎 Key Findings
-- Females, passangers who had an assigned cabin, passangers who got better class tickets and people with middle sized families aboard the Titanic tend to have had a higher survival rate.
+- Females, children, passengers who had an assigned cabin, passengers who got better class tickets and people with middle sized families aboard the Titanic tend to have had a higher survival rate.
 - Even if a huge portion of the data in a column is missing, it can still be utilized by comparing missing to non-missing data.
 - Creating more meaningful features from existing features is very useful for plotting and observing relationships between featurues.
 - Using different types of plots (and libraries for them) is essential to visualise relationships between different combinations of types of data.
@@ -55,6 +55,11 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
   - 1st Class: 62.9% survived
   - 2nd Class: 47.3% survived
   - 3rd Class: 24.2% survived
+- **By Age Group**
+  - Children: 50.4% survived
+  - Young Adults: 35,5% survived
+  - Adults: 42,1% survived
+  - Seniors: 22.7% survived
 
 ### 📈 Quick Results Overview
 
@@ -62,19 +67,18 @@ EDA project on the Titanic dataset. Creating features, visualising and analyzing
 |--------|-------------------|
 | Gender | ⭐⭐⭐⭐⭐ (Strongest) |
 | Class | ⭐⭐⭐⭐ (Very Strong) |
+| Age Group | ⭐⭐⭐ (Strong) |
 | Family Size | ⭐⭐ (Moderate) |
 | Fare | ⭐⭐ (Moderate) |
+| Port | ⭐ (Weak) |
 
 ### ✏️ Plots
 
 ![Distribution Plots](images/plots.png) <br>
 *Univariate/Bivariate Distributions*
 
-![Cabin Plot](images/cabin_plot.png) <br>
-*Survival Rate by Cabin Information*
-
-![Family Size Plot](images/family_plot.png) <br>
-*Survival Rate by Family Size*
+![Secondary Plots](images/secondary_plots.png) <br>
+*Plots with created features and other information*
 
 ---
 
@@ -126,4 +130,4 @@ I chose the Titanic dataset because:
 ---
 
 ## 🔮 Future Enhancements
-   - [ ] Analyze and plot more relationships
+   - [✔️] Analyze and plot more relationships
